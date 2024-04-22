@@ -37,6 +37,11 @@ const Sidebar = () => {
           Financial Statistics
         </NavLink>
         <br />
+        <NavLink className="menu-item" to="/dashboard/property-stats">
+          <TbDeviceAnalytics className="me-3 fs-3" />
+          Property Statistics
+        </NavLink>
+        <br />
         <NavLink className="menu-item" to="/dashboard/user-rating">
           <TbDeviceAnalytics className="me-3 fs-3" />
           Users Rating

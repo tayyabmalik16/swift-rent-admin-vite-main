@@ -8,6 +8,7 @@ import FinancialStats from "./pages/FinancialStats";
 import UserComplains from "./pages/UserComplains";
 import NotFoundPage from "./pages/NotFoundPage";
 import UserManagement from "./pages/UserManagment";
+import PropertyStats from "./pages/PropertyStats";
 import UserRating from "./pages/UserRating";
 import Layout from "./layout";
 import withSplashScreen from './components/withSplashScreen';
@@ -36,6 +37,7 @@ function App() {
           <Route path="manage-properties" element={<ManageProperties />} />
           <Route path="main" element={<UserInfo />} />
           <Route path="financial-stats" element={<FinancialStats />} />
+          <Route path="property-stats" element={<PropertyStats />}/>
           <Route path="user-rating" element={<UserRating />} />
           <Route path="user-complains" element={<UserComplains />} />
           <Route path="user-management" element={<UserManagement />} />
