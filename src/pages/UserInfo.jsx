@@ -3,12 +3,17 @@ import { Card, Container, Row, Col } from "react-bootstrap";
 import axios from "axios";
 import { BASE_URL } from "../utils/constants";
 import ManageOwners from "./ManageOwners";
+
 import ManageTenants from "./ManageTenants";
 import ManageProperties from "./ManageProperties";
 import FinancialStats from "./FinancialStats";
 import UserComplains from "./UserComplains";
 
 import "bootstrap/dist/css/bootstrap.min.css";
+import ManageManagers from "./ManageManagers";
+import PropertyStats from "./PropertyStats";
+import UserRating from "./UserRating";
+import UserManagment from "./UserManagment";
 
 const UserInfo = () => {
   const [data, setData] = useState(null);
@@ -77,8 +82,12 @@ const UserInfo = () => {
       </div>
       <ManageOwners />
       <ManageTenants />
+      <ManageManagers />
       <ManageProperties />
       <FinancialStats />
+      <PropertyStats />
+      <UserRating />
+      <UserManagment />
       <UserComplains />
     </div>
   );
