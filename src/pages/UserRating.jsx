@@ -42,14 +42,18 @@ const UserRating = () => {
         <Card className="p-3" style={{ borderColor: "#effbff" }}>
           <h1>User Ratings</h1>
           <br />
+          <h3>Displaying the ratings for the Managers</h3>
+          <br />
           <br />
               <div>
                 <AreaChart/>
               </div>
         </Card>
       </div><br/>
+      <br />
       <div>
-        <DataChart/>
+       <h3>Displaying the ratings for Tenants</h3>
+       <AreaChart/>
       </div>
     </div>
     
